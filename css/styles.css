@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: #1c1c1d;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+header nav a{
+    top: 10%;
+}
+header nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+nav ul a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 10px;
+    transition: .4s;
+
+
+}
+
+nav ul a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+#hero{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 250px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    padding: 120px 0%;
+}
+#hero h2{
+    color: rgb(31, 42, 137);
+    font-size: 60px;
+    font-weight: 500;
+
+}
+#hero h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+#hero button{
+    padding: 10px 50px;
+    background: rgb(31, 42, 137);
+    color: #666;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#planes{
+    width: 100%;
+    margin: 60px auto;
+    max-width: 100%;
+    margin: 0;
+    background: url("../medios-Rumbo/img/fondocategorias.png");
+    position: relative;
+    padding: 120px 0%;
+    text-align: center;
+}
+#planes h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+
+}
+
+#planes p{
+    font-size: 22px;
+}
+
+#planes .fila{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+#planes  article{
+    position: relative;
+
+}
+
+#planes article img{
+    transition: .4s;
+}
+
+#planes article img:hover{
+    transform: scale(0.9);
+    border-radius: 50%;
+}
+#planes article h3{
+    position: absolute;
+    color: #fff;
+    top: 110px;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#destinos{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 120px 0 40px;
+    background: url("../medios-Rumbo/img/fondoaccesorios.png");
+    background: cover;
+
+}
+
+#destinos h2{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#destinos .fila{
+    display: flex;
+    justify-content: center;
+
+}
+#destinos article{
+    margin: 30px 150px;
+}
+
+#destinos h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#destinos p{
+    color: #fff;
+}
+
+#cursos{
+    width: 100%;
+    margin: 1px auto;
+    background: #fff;
+    max-width: 100%;
+    position: relative;
+    padding: 120px 0%;
+    text-align: center;
+}
+#cursos h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+
+}
+
+#cursos p{
+    font-size: 22px;
+}
+
+#cursos .fila{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#cursos  article{
+    position: relative;
+
+}
+
+#cursos article img{
+    transition: .4s;
+}
+
+#cursos article img:hover{
+    transform: scale(0.9);
+    border-radius: 50%;
+}
+#cursos article h3{
+    position: absolute;
+    color: #fff;
+    top: 110px;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#cursos .fila p{
+    background-color: green;
+    border-radius: 50%;
+    color: #fff;
+}
+
+#suplementos{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 120px 0 40px;
+    background: url("../medios-Rumbo/img/fondosuplementos.png");
+    background: cover;
+
+}
+
+#suplementos h2{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#suplementos .fila{
+    display: flex;
+    justify-content: center;
+
+}
+#suplementos article{
+    margin: 30px 150px;
+}
+
+#suplementos h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#suplementos p{
+    color: #fff;
+}
+
+#importancia {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#importancia h2 {
+    font-size: 2em;
+    color: #1C1678;
+    margin-bottom: 20px;
+}
+
+#importancia p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+#importancia .fila {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#importancia article {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+#importancia article:hover {
+    transform: translateY(-5px);
+}
+
+#importancia article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#importancia h3 {
+    font-size: 1.5em;
+    color: #8576FF;
+    margin-bottom: 10px;
+}
+
+#importancia article p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+
+#contacto{
+    width: 100%;
+    background: rgb(31, 42, 137);
+    padding: 100px 0;
+    text-align: center;
+}
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#contacto p{
+    font-size: 22px;
+}
+#contacto form{
+    width: 900px;
+    margin: 40px auto;
+}
+form .fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto input,
+#contacto select{
+    width: 42%;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+#contacto button{
+    margin-top: 40px;
+    background: black;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border-color: transparent;
+}
+footer{
+    width: 100%;
+    position: relative;
+    padding: 60px 0;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
